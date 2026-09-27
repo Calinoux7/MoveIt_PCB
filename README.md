@@ -13,7 +13,7 @@ To make the game fully portable, the board is powered by three AAA batteries loc
 
 
 
-- How the Game Works -
+- How the Game Works 
 
 1. The player presses the START button to begin a new game.
 2. The OLED screen displays an initial instruction: Up, Down, Left, Right, or Button.
@@ -26,7 +26,7 @@ To make the game fully portable, the board is powered by three AAA batteries loc
 
 
 
-- Electronic Architecture / Components -
+- Electronic Architecture / Components 
 
 - XIAO ESP32-S3: main microcontroller responsible for managing the game and various peripherals.
 - MPU-6050: accelerometer and gyroscope used to detect the controller’s orientation and movements.
@@ -40,7 +40,7 @@ To make the game fully portable, the board is powered by three AAA batteries loc
 
 
 
-- Circuit Diagram -
+- Circuit Diagram 
 
 The MoveIt circuit diagram includes the various subsystems required for the controller to function: power supply, microcontroller, motion detection, display, user interface, and audio system. The XIAO ESP32-S3 serves as the heart of the system and handles communication with the various components. In particular, the MPU-6050 and the OLED display communicate with the microcontroller via the I²C bus.
 
@@ -48,7 +48,7 @@ The schematic has been organized into different functional blocks to make it eas
 
 
 
-- PCB Design -
+- PCB Design 
 
 The PCB was designed entirely in KiCad 10.0. Its shape was inspired by a retro video game controller so that the printed circuit board would be an integral part of the product’s design.
 The components were placed with their function and intended use in mind. In particular, the display, buttons, and RGB LED are positioned to be accessible or visible to the player.
@@ -58,7 +58,7 @@ The routing uses both copper layers of the PCB (F.Cu and B.Cu) to connect the va
 
 
 
-- Project Files -
+- Project Files 
 
     MoveIt_PCB/
     │
